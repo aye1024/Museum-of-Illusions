@@ -1719,8 +1719,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.103931, y: 2.7947628, z: 1}
-  m_Center: {x: 0.14316058, y: 0.3597399, z: 0}
+  m_Size: {x: 3.103931, y: 2.7947628, z: 22.377537}
+  m_Center: {x: 0.14316058, y: 0.3597399, z: -10.688768}
 --- !u!1001 &441087506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3312,7 +3312,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 6a91a9f571f83f345a858c71b08ff5e6, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5130,7 +5130,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 22.1, y: -0.01, z: 12.8}
-  m_LocalScale: {x: 10, y: 1, z: 10}
+  m_LocalScale: {x: 8, y: 1, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5231,10 +5231,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DistanceScaler
   player: {fileID: 441087508}
-  minDistance: 10
-  maxDistance: 1000
-  minScale: {x: 10, y: 1, z: 10}
-  maxScale: {x: 1000, y: 1, z: 1000}
+  minDistance: 8
+  maxDistance: 800
+  minScale: {x: 1, y: 1, z: 1}
+  maxScale: {x: 100, y: 1, z: 100}
 --- !u!1 &1273723150
 GameObject:
   m_ObjectHideFlags: 0
@@ -5537,15 +5537,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 7b5cf9bfbcf27164cab6ea46f9a5c62d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.125
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 7b5cf9bfbcf27164cab6ea46f9a5c62d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.125
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 7b5cf9bfbcf27164cab6ea46f9a5c62d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.125
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 7b5cf9bfbcf27164cab6ea46f9a5c62d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5553,7 +5553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 7b5cf9bfbcf27164cab6ea46f9a5c62d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.812
+      value: 0.818
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 7b5cf9bfbcf27164cab6ea46f9a5c62d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5733,7 +5733,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 6c7d83fcba3c7dc48a2201dbd206b138, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
